@@ -5,6 +5,7 @@ export default class Rules extends Component {
         return (
             <div>
                 Rules...
+                More Rules This should be deleted
             </div>
         )
     }

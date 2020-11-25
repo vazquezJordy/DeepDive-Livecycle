@@ -12,7 +12,6 @@ export default class Discussion extends Component {
     componentDidMount() {
 
        this.liveTime = setInterval(() => {
-            console.log('New chat message')
             this.setState({currentTime: String(new Date())})
         },1000
         )
